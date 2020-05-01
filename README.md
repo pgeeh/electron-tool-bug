@@ -1,3 +1,21 @@
+# Bug Info
+
+Errors - chrome.devtools is not handled correctly when devtools of multiple windows are open, leading to failed extension loading.
+
+`[32006:0501/183746.550343:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'panels' of undefined", source: chrome-extension://redux-devtools/js/devtools.bundle.js (1)
+[32006:0501/183746.677275:ERROR:CONSOLE(40)] "Uncaught TypeError: Cannot read property 'inspectedWindow' of undefined", source: chrome-extension://react-developer-tools/build/main.js (40)`
+
+- ```npm install```
+- ```npm run start```
+- ```npm run electron```
+
+Steps
+- Open devtools on both windows. Second window will cause the above errors
+- Close both dev tools.
+- Open one dev tool, no errors. Close it.
+- Open dev tool on other window, no errors. Close it.
+
+# Original Create Create Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
