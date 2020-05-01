@@ -2,8 +2,8 @@
 
 Errors - chrome.devtools is not handled correctly when devtools of multiple windows are open, leading to failed extension loading.
 
-`[32006:0501/183746.550343:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'panels' of undefined", source: chrome-extension://redux-devtools/js/devtools.bundle.js (1)
-[32006:0501/183746.677275:ERROR:CONSOLE(40)] "Uncaught TypeError: Cannot read property 'inspectedWindow' of undefined", source: chrome-extension://react-developer-tools/build/main.js (40)`
+`[32006:0501/183746.550343:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'panels' of undefined", source: chrome-extension://redux-devtools/js/devtools.bundle.js (1)`
+`[32006:0501/183746.677275:ERROR:CONSOLE(40)] "Uncaught TypeError: Cannot read property 'inspectedWindow' of undefined", source: chrome-extension://react-developer-tools/build/main.js (40)`
 
 - ```npm install```
 - ```npm run start```
