@@ -9,7 +9,7 @@ To install (run's in separate windows to ease visibility of errors)
 - ```npm run start```
 - ```npm run electron```
 
-Steps
+### Steps
 - Open devtools on both windows. Second window will cause the above errors
 - Close both dev tools.
 - Open one dev tool, no errors. Close it.
